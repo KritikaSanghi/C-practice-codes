@@ -15,7 +15,7 @@ void printPowerSet(char *set, int set_size)
 	printf("\n");
 	}
 }
-
+//Driver Code
 int main()
 {
 	char set[] = {'a','b','c'};
