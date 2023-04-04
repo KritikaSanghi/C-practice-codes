@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-   int a[10],b[10],i,c[10],j,k=0,n1,n2;
+   int a[10],b[10];
+   int i,c[10],j,k=0,n1,n2;
    printf("Enter number of  element of set A\n");
    scanf("%d",&n1);
    printf("Enter the element of set A \n");
