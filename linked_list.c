@@ -84,7 +84,8 @@ void insertAtPosition()
 	struct node *temp, *newnode;
 	int pos, data, i = 1;
 	newnode = malloc(sizeof(struct node));
-	printf("\nEnter position and data :");
+	printf("\n");
+	printf("Enter position and data :");
 	scanf("%d %d", &pos, &data);
 	temp = start;
 	newnode->info = data;
