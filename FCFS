@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int q[10],b[10],w[10],t[10],avgW,avgT;
+    int n,i,sum1=0,sum2=0;
+    printf("Enter no. of processes: ");
+    scanf("%d",&n);
+    printf("\nEnter Burst time: ");
+    for(i=0;i<n;i++){
+        printf("%d",i);
+        scanf("%d",&b[i]);
+    }
