@@ -71,6 +71,5 @@ int main()
     printf("\nsymmetric Difference of sets is:-\n");
     for(i=0;i<n;i++)
      printf("%d ",sy[i]);
-    return 0;
-    
+    return 0;  
 }
