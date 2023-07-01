@@ -22,6 +22,7 @@ int main()
             if(b[j]>b[j+1])
             {
                 temp=b[j+1];
+                
                 b[j+1]=b[j];
                 b[j]=temp;
                 temp1=a[j+1];
