@@ -33,3 +33,4 @@ printf("Avg. Waiting time is: %d",avgW);
 printf("\nAvg. Turnaround time is: %d",avgT);
     return 0;
 }
+
